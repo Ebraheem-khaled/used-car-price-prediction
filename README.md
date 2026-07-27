@@ -33,7 +33,7 @@ pandas, numpy, matplotlib, seaborn, scikit-learn, scikit-learn-extra (for KMedoi
 
 ## Some notes
 
-- The data loading path is currently hardcoded to my own PC, so make sure to change that first before running it.
+-Place the downloaded CSV file (named `Car details v3.csv`) inside a `data/` folder in the project's root directory. The notebook already points to a relative path (`data/Car details v3.csv`), so no code changes should be needed as long as the file is in the right place.
 - The clustering results ended up giving 3 clear segments (premium/mid/budget) that mainly differ by price, age and mileage.
 - Newer cars with less mileage sell for noticeably more, and most cars in the dataset are first-owner and sold by individuals rather than dealers.
 
